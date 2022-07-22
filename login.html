@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>login</title>
+    <style>
+     
+
+
+    </style>
+
+</head>
+<style>
+   *{
+        font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+    #form {
+            height: 400px;
+            width: 29%;
+            margin: auto;
+            margin-top: -600px;
+            justify-content: center;
+            padding: 20px 15px 30px 40px;
+            border-radius: 15px;
+            box-shadow: 10px 10px  lightblue;
+            background-color: #eeeeee;
+            position: relative;
+
+        
+        }
+
+    input{
+        width: 90%;
+        height: 40px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        
+        
+    }
+    h2{
+       text-align: center;
+    }
+    h4{
+        margin-bottom: 8px;
+    }
+
+    #buton{
+        margin-top: 35px;
+        font-weight: bold;
+     height: 50px;
+   margin-left: 3px;
+     width: 405px;
+
+    }
+    #buton:hover{
+        background-color: rgb(27, 70, 240);
+        color: white;
+
+    }
+    img{
+    width: 100%;
+    height: 705px;
+    opacity: 0.5;
+}
+
+body {
+        background-color: black;
+}
+</style>
+
+<body>
+    <img   src="https://thumbs.dreamstime.com/b/abstract-orange-painting-grey-wall-stylish-living-room-interior-white-wooden-furniture-couch-140315142.jpg" alt="">
+    
+ <form action="" id="form">
+        <h2>LogIn</h2>
+        <H4>Email</H4>
+        <input id="email" type="text" placeholder="Enter email" /><br />
+        <h4>Password</h4>
+        <input id="password" type="password" placeholder="Enter password">
+        <input id="buton" type="submit" value="Login">
+    </form>
+
+    
+
+
+<script>
+ 
+ let inputData=JSON.parse(localStorage.getItem("inputItem"))
+
+    document.querySelector("#form").addEventListener("submit",myProject)
+
+    function myProject(){
+        let email=document.querySelector("#email").value
+        let password=document.querySelector("#password").value
+     if(email!=inputData.inputEmail && password!=inputData.inputPassword){
+        alert("Email and password Wrong")
+     }else if(email==inputData.inputEmail && password!=inputData.inputPassword){
+        alert("Password is wrong")
+     }else if(email!=inputData.inputEmail && password==inputData.inputPassword){
+        alert("Email is wrong")
+     }else{
+        alert("Login Successfull")
+     }
+     
+    }
+
+
+</script>
+
+</body>
+
+</html>
