@@ -1,0 +1,418 @@
+
+
+#greenNavbar {
+    display: flex;
+    gap: 30px;
+    height: 50px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: -8px;
+    background-color: teal;
+    color: white;
+  }
+  
+  #greenNavbar > div {
+    margin-top: 8px;
+  }
+  
+  #greenNavbar > div:nth-child(3) {
+    text-decoration: underline;
+    font: ic 1.3rem / normal Avenir Book, sans-serif;
+  }
+  
+  #greenNavbar > div:nth-child(4) {
+    text-decoration: underline;
+  }
+  
+  #greenNavbar > div:nth-child(2) {
+    font: ic 1.3rem/1.8 Avenir Medium, sans-serif;
+  }
+  
+  #greenNavbar > div:nth-child(1) {
+    font: italic 1.3rem/1.5 Avenir Book, sans-serif;
+    font-size: 14px;
+  }
+  
+  #signinbar {
+    display: flex;
+    height: 30px;
+    margin: auto;
+    width: 100%;
+    justify-content: right;
+    margin-top: -8px;
+    background-color: #f7f6f2;
+    padding-top: 10px;
+    font: 12px Avenir Book, sans-serif;
+  }
+  
+  #icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+  
+    margin-right: 4px;
+  }
+  #english {
+    margin-top: 2px;
+    margin-right: 20px;
+  }
+  
+  #signbtn > a {
+    position: relative;
+    margin-right: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: #f7f6f2;
+  }
+  
+  
+  #searchbar {
+    height: 65px;
+    display: flex;
+    border: 1px solid #cfd8dc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  #searchbar > div {
+    border-top: none;
+    height: 100%;
+    width: 230px;
+    margin-left: 30px;
+  }
+  
+  #searchbar > div:nth-child(2) {
+    margin-left: -1px;
+    width: 180px;
+    border: 1px solid #cfd8dc;
+    border-top: none;
+  }
+  
+  #btn1 {
+    margin-top: 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  #btn2 {
+    margin-top: 0px;
+    margin-left: -725px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-right: 1px solid #cfd8dc;
+    width: 200px;
+    height: 60px;
+  }
+  
+  #searchbar > div:nth-child(1) {
+    border: 1px solid #cfd8dc;
+    border-top: none;
+  }
+  
+  #searchbar > div:nth-child(3) {
+    margin-left: -1px;
+    width: 240px;
+    border-radius: 6px;
+    height: 40px;
+    margin-top: 4px;
+    margin-left: 730px;
+  
+  }
+  
+  #icon4 {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin-top: 10px;
+  }
+  
+  #contentbar {
+    border: 1px solid #cfd8dc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 2px;
+    font: 0.8rem/2.3 Avenir Medium, sans-serif;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+  }
+  
+  #contentbar > div:nth-child(1) {
+    margin-left: 30px;
+  }
+  
+  
+  
+      #container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+  
+      }
+  
+   #heading{
+      margin-left: 600px;
+   }
+  
+  
+  
+  
+  
+   #About_us {
+    border: 1px solid #cfd8dc;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 40px;
+    width: 1425px;
+    margin-top: 30px;
+  }
+  
+  #About_us > p:nth-child(3) {
+    font: ic 1.3rem/1.3 Avenir Book, sans-serif;
+    letter-spacing: 0.06rem;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(22, 122, 146);
+  }
+  
+  #About_us > p:nth-child(2) {
+    font: ic 1.4rem/1.5 Avenir Book, sans-serif;
+    letter-spacing: 0.06rem;
+    margin-bottom: 10px;
+  }
+  
+  #About_us > p:nth-child(1) {
+    font-size: 25px;
+    color: rgb(38, 38, 44);
+    font: Light, serif;
+    margin-bottom: 10px;
+  }
+  
+  #bottom {
+    margin-top: -150px;
+    background-color: #f6f7f2;
+    height: 1200px;
+  }
+  
+  #email {
+    border: 1px solid #cfd8dc;
+    height: 180px;
+    margin-top: 200px;
+  }
+  
+  button {
+    padding: 6px;
+    width: 100px;
+    font: 25px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    left: 750px;
+    bottom: 100px;
+  }
+  
+  #email_button {
+    color: white;
+    position: relative;
+    left: 760px;
+    bottom: 100px;
+    padding: 10px;
+    background-color: #34515e;
+    border: none;
+  }
+  
+  #email > p:nth-child(1) {
+    color: var(--text-medium);
+    font: 1.1rem/1.5 Avenir Book, sans-serif;
+    letter-spacing: 0.06rem;
+    margin-left: 150px;
+  }
+  
+  #email > p:nth-child(2) {
+    color: var(--text-medium);
+    font: sans-serif;
+    letter-spacing: 0.06rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    width: 600px;
+    font-size: 14px;
+  }
+  
+  #email > p:nth-child(3) {
+    color: var(--text-medium);
+    font: sans-serif;
+    letter-spacing: 0.06rem;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+    font-size: 14px;
+  }
+  
+  #help {
+    margin-left: 148px;
+  
+    margin-top: -900px;
+    height: 300px;
+    width: 1200px;
+    display: flex;
+    font: sans-serif;
+  }
+  
+  #help > div {
+    width: 250px;
+  }
+  
+  #help > div > div {
+    margin-top: 10px;
+    font-size: 15px;
+    font: sans-serif;
+  }
+  
+  #store_locater {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #get_Email {
+    width: 20px;
+    height: 20px;
+  }
+  
+  #st {
+    position: relative;
+    left: 25px;
+    bottom: 66px;
+  }
+  
+  #gt {
+    position: relative;
+    left: 25px;
+    bottom: 60px;
+  }
+  #logoss {
+    margin-left: 620px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    align-content: center;
+  }
+  #logoss > div {
+    height: 30px;
+  }
+  #logoss > div > img {
+    height: 100%;
+  }
+  #bottompatti {
+    margin-top: 70px;
+    width: 1445px;
+    margin-left: 40px;
+  }
+  #city {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 550px;
+    color: #34515e;
+  }
+  #city > div {
+    border: 1px solid #cfd8dc;
+    border-top: none;
+    border-bottom: none;
+    width: 70px;
+    text-align: center;
+  }
+  
+  #ekdamlast {
+    margin-left: -20px;
+    display: flex;
+    margin-top: 200px;
+    border: 1px;
+    background-color: #f6f7f2;
+    font: sans-serif;
+    /* padding: 20px; */
+    margin-top: 189px;
+  }
+  
+  #ekdamlast > div {
+    border: 1px solid #cfd8dc;
+    width: 130px;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    height: 30px;
+    color: #34515e;
+  }
+  
+  #l {
+    margin-top: 3px;
+    margin-left: 455px;
+    color: #34515e;
+    font: sans-serif;
+  }
+  
+  
+  
+  
+  #anthsearch {
+    border-color: gray;
+    position: absolute;
+    bottom: 584px;
+    left: 1100px;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  #addTocart {
+    width: 40px;
+    height: 40px;
+  
+    position: absolute;
+    bottom: 590px;
+    left: 1428px;
+  }
+  
+  
+  
+  
+  
+   #links > div > a{
+  
+      position: relative;
+      left: 1415px;
+      bottom: 170px;
+      text-decoration: none;
+      color: black;
+      border: 1px solid black;
+      font-size: 10px;
+      padding: 5px;
+      background-color: #eeeeee;
+      font-weight: bold;
+      
+  }
+  
+  
+  #links > div > a:hover{
+      background-color: blue;
+      color: white;
+  }
+  
+  #contentbar>div>a{
+      text-decoration: none;
+      color: black;
+  }
+  
+  
