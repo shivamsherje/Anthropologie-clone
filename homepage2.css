@@ -45,32 +45,30 @@
   font: 12px Avenir Book, sans-serif;
 }
 
+  
 #icon {
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin-top: 6px;
+  margin-top: 2px;
 
   margin-right: 4px;
 }
-
 #english {
-  margin-top: 6px;
+  margin-top: 2px;
+  margin-right: 20px;
 }
 
-#signbtn {
+#signbtn > a {
   position: relative;
-  /* left: 20px; */
+  margin-right: 20px;
+  font-size: 13px;
+  text-decoration: none;
   border: none;
+  color: black;
   background-color: #f7f6f2;
 }
 
-#signbtn2 {
-  border: none;
-
-  background-color: #f7f6f2;
-  position: relative;
-}
 
 #searchbar {
   height: 65px;
@@ -100,13 +98,21 @@
   margin-left: 10px;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 
 #btn2 {
-  margin-top: 15px;
-  margin-left: 15px;
-  border: none;
+  margin-top: px;
+  margin-left:-720px;
+  width: 180px;
+  height: 60px;
+ 
+ border-right: 1px solid #cfd8dc;
+ border-top: none;
+ border-left: none;
+ border-bottom: none;
   background-color: white;
+  cursor: pointer;
 }
 
 #searchbar > div:nth-child(1) {
@@ -121,7 +127,7 @@
   height: 40px;
   margin-top: 4px;
   margin-left: 730px;
-  border: 1px solid #cfd8dc;
+
 }
 
 #contentbar {
@@ -722,8 +728,8 @@ input {
 
 #anthsearch {
   border-color: gray;
-  position: relative;
-  bottom: 6775px;
+  position: absolute;
+  bottom: 584px;
   left: 1100px;
   border-radius: 5px;
   padding: 15px;
@@ -733,7 +739,7 @@ input {
   width: 40px;
   height: 40px;
 
-  position: relative;
-  bottom: 6758px;
-  left: 1110px;
+  position: absolute;
+  bottom: 590px;
+  left: 1440px;
 }
