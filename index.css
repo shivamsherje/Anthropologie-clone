@@ -43,33 +43,32 @@
   background-color: #f7f6f2;
   padding-top: 10px;
   font: 12px Avenir Book, sans-serif;
+  
 }
 
 #icon {
   display: inline-block;
   width: 15px;
   height: 15px;
-  margin-top: 6px;
+  margin-top: 2px;
 
   margin-right: 4px;
 }
 #english {
-  margin-top: 6px;
+  margin-top: 2px;
+  margin-right: 20px;
 }
 
-#signbtn {
+#signbtn > a {
   position: relative;
-  /* left: 20px; */
+  margin-right: 20px;
+  font-size: 13px;
+  text-decoration: none;
   border: none;
+  color: black;
   background-color: #f7f6f2;
 }
 
-#signbtn2 {
-  border: none;
-
-  background-color: #f7f6f2;
-  position: relative;
-}
 
 #searchbar {
   height: 65px;
@@ -90,22 +89,29 @@
 #searchbar > div:nth-child(2) {
   margin-left: -1px;
   width: 180px;
-  border: 1px solid #cfd8dc;
+
   border-top: none;
 }
 
 #btn1 {
-  margin-top: 20px;
+  margin-top: 22px;
   margin-left: 10px;
   border: none;
   background-color: white;
+  cursor: pointer;
 }
 
 #btn2 {
-  margin-top: 10px;
-  margin-left: 15px;
-  border: none;
+  margin-left:-720px;
+  width: 180px;
+  height: 61px;
   background-color: white;
+  border: 1px solid #cfd8dc;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  cursor: pointer;
+  
 }
 
 #searchbar > div:nth-child(1) {
@@ -120,7 +126,7 @@
   height: 40px;
   margin-top: 4px;
   margin-left: 730px;
-  border: 1px solid #cfd8dc;
+
 }
 
 #icon4 {
@@ -685,4 +691,10 @@ input {
   position: relative;
   bottom: 5834px;
   left: 1110px;
+}
+
+
+#ab{
+  text-decoration: none;
+  color: black;
 }
