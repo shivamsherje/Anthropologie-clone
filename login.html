@@ -49,7 +49,7 @@
     }
 
     #buton{
-        margin-top: 35px;
+        margin-top: 30px;
         font-weight: bold;
      height: 50px;
    margin-left: 3px;
@@ -70,6 +70,16 @@
 body {
         background-color: black;
 }
+a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    margin-left: 155px;
+}
+
 </style>
 
 <body>
@@ -81,7 +91,10 @@ body {
         <input id="email" type="text" placeholder="Enter email" /><br />
         <h4>Password</h4>
         <input id="password" type="password" placeholder="Enter password">
-        <input id="buton" type="submit" value="Login">
+        <input id="buton" type="submit" value="Login" >
+
+
+        <a  id="homepage" href="signin.html">HOMEPAGE</a>
     </form>
 
     
@@ -103,7 +116,7 @@ body {
      }else if(email!=inputData.inputEmail && password==inputData.inputPassword){
         alert("Email is wrong")
      }else{
-        alert("Login Successfull")
+        alert("Login Successfull, click on homepage button to continue !!");
      }
      
     }
