@@ -1,4 +1,4 @@
-# Anthropologie-clone-  **[Deployed Link](https://statuesque-chickens-777.vercel.app/)**
+# Anthropologie-clone-  **[Deployed Link](https://admirable-lamington-2add4d.netlify.app/)**
 Explore Anthropologie's unique collection of women's clothing, accessories, home décor, furniture, gifts and more.
 
 ## Description
@@ -32,6 +32,9 @@ This project is the clone of the frontend website of  Anthropologie. Its all the
 ### Home Page
 <img width="90%" align="center" src="https://user-images.githubusercontent.com/97978681/220144799-88b5a4d5-c0e9-4475-8ab8-b8cb9717e6c4.png"/>
 
+### Anthorliving home 
+<img width="90%" src="https://user-images.githubusercontent.com/97978681/220145066-b29eb3b4-c5dd-4e78-9846-637228893207.png"/>
+
 ### Register Page
 <img width="90%" src="https://user-images.githubusercontent.com/97978681/220143949-ee892e48-9a25-455b-9510-1e0addb0fee0.png"/>
 
@@ -41,8 +44,8 @@ This project is the clone of the frontend website of  Anthropologie. Its all the
 ### Gifts & Candles
 <img width="90%" src="https://user-images.githubusercontent.com/97978681/220144574-d6134999-a689-41db-9a0f-b7b48d4b62c7.png"/>
 
-### Cart Page
-<img width="90%" src="https://user-images.githubusercontent.com/97978681/217019816-aa9a9059-deca-4f1d-8026-e35c210b5eb0.png"/>
+### Cart page
+<img width="90%" src="https://user-images.githubusercontent.com/97978681/220145671-69f7c5c7-83b7-4794-869c-3a38353b99ea.png"/>
 
 
 ## Developer
